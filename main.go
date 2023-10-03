@@ -262,7 +262,7 @@ func init() {
 	// sus = append(sus, 87654321)
 
 	// 启用 webui
-        go webctrl.RunGui(*g)
+        // go webctrl.RunGui(*g)
 
 	if *runcfg != "" {
 		f, err := os.Open(*runcfg)
